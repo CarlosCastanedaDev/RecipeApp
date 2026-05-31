@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import RecipeBrowser from './pages/RecipeBrowser'
 import AddRecipe from './pages/AddRecipe'
 import Pantry from './pages/Pantry'
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="*" element={<RecipeBrowser />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   )
 }

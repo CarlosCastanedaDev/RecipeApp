@@ -846,6 +846,20 @@ select:focus {
   margin-bottom: 1.25rem;
 }
 
+/* ---------- Footer ---------- */
+.footer {
+  max-width: 1080px;
+  margin: 2rem auto 0;
+  padding: 1.25rem 1rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 /* ---------- Toasts ---------- */
 .toast-stack {
   position: fixed;
